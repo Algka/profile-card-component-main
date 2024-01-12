@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: hsl(185, 75%, 39%);
+  font-family: kumbh Sans, sans-serif;
+}
+
+.bg {
+  width: 1042px;
+  height: 540px;
+}
+.bg .img1 {
+  width: 800px;
+  height: 750px;
+  margin-left: -35vh;
+  margin-top: -57vh;
+}
+.bg .img2 {
+  width: 750px;
+  height: 700px;
+  margin-left: 120vh;
+  margin-top: -15vh;
+}
+
+.boite {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: 60vh;
+  height: 60vh;
+  border-radius: 1rem;
+}
+.boite .img3 {
+  background: hsl(185, 75%, 39%);
+  width: 60vh;
+  height: 25vh;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.bas .rond {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 107px;
+  height: 107px;
+  background: white;
+  margin-top: -30px;
+}
+.bas .rond .img4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.bas .ecr, .bas .ecr p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+}
+.bas .ecr mark {
+  background: none;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+.bas .ecr p {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  color: hsl(0, 0%, 59%);
+}
+.bas .basp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45vh;
+  height: 10vh;
+  padding: 20px;
+  margin-top: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bas .basp p {
+  color: hsl(0, 0%, 59%);
+}
+.bas .basp .pre h2 {
+  margin-left: 12px;
+}
+.bas .basp .pre p {
+  margin: 0;
+  padding: 0;
+  margin-left: -10px;
+}
+.bas .basp .pre h2 {
+  justify-content: center;
+  margin-left: 12px;
+  margin: 0;
+  padding: 0;
+}
+.bas .basp .sec h2 {
+  margin: 0;
+  margin-left: -8px;
+}
+.bas .basp .sec p {
+  margin-left: 15px;
+  margin: 0;
+}
+.bas .basp .th h2 {
+  margin: 0;
+  margin-left: -3px;
+}
+.bas .basp .th p {
+  margin: 0;
+}
+
+hr {
+  margin-top: 135px;
+}/*# sourceMappingURL=styles.css.map */

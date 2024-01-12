@@ -1,0 +1,121 @@
+body{
+    @include reset-list;
+    background: $firstcolor;
+    font-family: kumbh Sans, sans-serif;
+}
+
+.bg{
+    width: 1042px;
+    height: 540px;
+    .img1{
+        width: 800px;
+        height: 750px;
+        margin-left: -35vh;
+        margin-top: -57vh;
+    }
+    
+    .img2{
+        width: 750px;
+        height: 700px;
+        margin-left: 120vh;
+        margin-top: -15vh;
+    }
+}
+
+.boite{
+    @include positionner2;
+    background: white;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 1rem;
+    .img3{
+        background: $firstcolor;
+        width: 60vh;
+        height: 25vh;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+}
+
+.bas{
+    .rond{
+        @include positionner2;
+        border-radius: 50%;
+        width: 107px;
+        height: 107px;
+        background: white;
+        margin-top: -30px;
+        .img4{
+            @include positionner2;
+            border-radius: 50%;
+    
+        }
+    }
+    .ecr{
+        @include positionner2;
+        margin-top: 40px;
+        mark{
+            background: none;
+            color: $fourthcolor;
+            font-weight: 400;
+        }
+        p{
+            @include reset-list;
+            @extend .ecr;
+            margin-top: 30px;
+            color: $fourthcolor;
+        }
+    }
+    .basp{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 45vh;
+        height: 10vh;
+        padding: 20px;
+        margin-top: 150px;
+        @include positionner2;
+        p{
+            color: $fourthcolor;
+        }
+        .pre{
+            h2{
+                margin-left: 12px;
+            }
+            p{
+                @include reset-list;
+                margin-left: -10px;
+            }
+            h2{
+                justify-content: center;
+                margin-left: 12px;
+                @include reset-list;
+            }
+        }
+        .sec{
+            h2{
+                margin: 0;
+                margin-left: -8px;
+            }
+            p{
+                margin-left: 15px;
+                margin: 0;
+            }
+        }
+        .th{
+            h2{
+                margin: 0;
+                margin-left: -3px;
+            }
+            p{
+                margin: 0;
+            }
+        }
+    }
+}
+
+hr{
+    margin-top: 135px;
+}
+
+
